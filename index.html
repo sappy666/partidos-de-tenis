@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partidos de Tenis</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="nav">
+            <div class="nav__logo">
+            </div>
+    </header>
+
+    <!-- Encabezado de la pagina -->
+    <main>
+        <section class="section">
+            <h2 class="section__title">Partidos de Tenis</h2>
+
+    <!-- Bloque Contenido -->
+            <div class="form">
+                <form action="POST" action="index.js"> <!--bloque form -->
+                    <div class="form__group">
+                        <label for="monto-dolares" class="form__label">cantidad de juegos ganados por el jugador A</label> <!--elemento -->
+                        <input type="text" id="nombre" name="nombre" class="form__input" placeholder="Ingresa la cantidad de juegos ganados por el jugador A">
+                    </div>
+                    <div class="form__group">
+                        <label for="monto-dolares" class="form__label">cantidad de juegos ganados por el jugador B</label> <!--elemento -->
+                        <input type="text" id="nombre" name="nombre" class="form__input" placeholder="Ingresa la cantidad de juegos ganados por el jugador B">
+                    </div>
+                    <input type="button" value="Enviar" class="form__button" name="submit" id="btn-enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FIN CONTENIDO DE LA PAGINA -->
+
+    <!-- PIE DE PÁGINA-->
+    <footer>
+        <div class="footer">
+            <div class="">
+                <p class="footer__text">Codecats | Viña de Mar | Región de Valparaíso | 2023</p>
+            </div>
+        </div>
+    </footer>
+    <!--FIN PIE DE PÁGINA-->
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
